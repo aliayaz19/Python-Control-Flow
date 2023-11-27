@@ -1,0 +1,11 @@
+#Enter your User_name or Password
+username = input("Enter your username ")
+password = input("Enter your password ")
+
+# check the username and password either correct or wrong.
+
+if username == "admin" and password =="12345":
+    print("Loged_In sucessfully.")
+   
+else:
+    print("Invalid User_name or Password.     Try Again Later")

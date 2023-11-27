@@ -1,0 +1,10 @@
+# get the user_age.
+
+age = int(input("Enter your age "))
+
+# check the user is adult or minor.
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("Your age is minor for our Terms and Conditions.")

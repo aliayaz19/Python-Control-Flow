@@ -1,0 +1,11 @@
+#get the numnber from user
+num1 =(input("Enter first number  "))
+num2 =(input("Enter second number "))
+
+#check whose number is Large number or both are Equal 
+if num1 > num2:
+    print("The larger number is",num1)
+elif num1 < num2:
+    print("The larger number is",num2)
+else:
+    print("Both numbers are equal")
